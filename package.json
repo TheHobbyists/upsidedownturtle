@@ -1,0 +1,19 @@
+{
+  "name": "upsidedownturtle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheHobbyists/upsidedownturtle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheHobbyists/upsidedownturtle/issues"
+  },
+  "homepage": "https://github.com/TheHobbyists/upsidedownturtle#readme"
+}
