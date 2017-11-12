@@ -8,7 +8,7 @@ console.log(array);
 
 console.log(array[1]);
 
-console.log("hello".green);
+console.log("hello".inverse);
 console.log("rainbow".rainbow.inverse);
 console.log("trap".trap);
 console.log("ERROR".red.inverse);

@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/TheHobbyists/upsidedownturtle/issues"
   },
-  "homepage": "https://github.com/TheHobbyists/upsidedownturtle#readme"
+  "homepage": "https://github.com/TheHobbyists/upsidedownturtle#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "robotjs": "^0.4.7"
+  }
 }
