@@ -11,6 +11,9 @@ var dick = true;
 
 if (dick == true){
 	console.log("OHHHHHHHH YEAHHHHHHH".yellow)
+	setTimeout( function (){
+		console.log("fuck yeahhhhhhh".rainbow);
+	},1000)
 }
 if (dick == false){
 	console.log("God damn it. No dick.".red)
