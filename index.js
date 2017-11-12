@@ -7,7 +7,7 @@ let constant = "this NOT is a constant"
 //Variables
 var array = ["one", 2 , "three"];
 var variable = "this NOT is a variable";
-var dick = true;
+var dick = false;
 
 if (dick == true){
 	console.log("OHHHHHHHH YEAHHHHHHH".yellow)
