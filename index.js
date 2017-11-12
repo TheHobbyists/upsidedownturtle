@@ -10,3 +10,4 @@ console.log(array[1]);
 
 console.log("hello".green);
 console.log("rainbow".rainbow);
+console.log("trap".trap);
