@@ -2,7 +2,7 @@
 var robot = require("robotjs");
 
 // Speed up the mouse.
-robot.setMouseDelay(.1);
+robot.setMouseDelay(2);
 
 var twoPI = Math.PI * 2.0;
 var screenSize = robot.getScreenSize();
