@@ -9,10 +9,6 @@ var array = ["one", 2 , "three"];
 var variable = "this NOT is a variable";
 var dick = true;
 
-console.log("hello".inverse);
-console.log("rainbow".rainbow.inverse);
-console.log("trap".trap);
-console.log("ERROR".red.inverse);
 if (dick == true){
 	console.log("OHHHHHHHH YEAHHHHHHH".yellow)
 }
