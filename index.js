@@ -1,14 +1,17 @@
+//Libraries
 let colors = require('colors');
 
-var variable = "this NOT is a variable"
+//Constants
 let constant = "this NOT is a constant"
+
+//Variables
 var array = ["one", 2 , "three"];
+var variable = "this NOT is a variable";
+var dick = true;
 
-console.log(array);
-
-console.log(array[1]);
-
-console.log("hello".green);
-console.log("rainbow".rainbow.inverse);
-console.log("trap".trap);
-console.log("ERROR".red.inverse);
+if (dick == true){
+	console.log("OHHHHHHHH YEAHHHHHHH".yellow)
+}
+if (dick == false){
+	console.log("God damn it. No dick.".red)
+}
