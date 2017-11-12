@@ -9,5 +9,5 @@ console.log(array);
 console.log(array[1]);
 
 console.log("hello".green);
-console.log("rainbow".rainbow);
+console.log("rainbow".rainbow.inverse);
 console.log("trap".trap);
