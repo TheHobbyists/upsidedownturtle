@@ -1,9 +1,9 @@
-var variable = "this is a variable"
-let constant = "this is a constant"
+var variable = "this NOT is a variable"
+let constant = "this NOT is a constant"
 
 console.log(variable);
 
-variable = "still a variable "
+variable = "still NOT a variable "
 
 console.log(variable);
 console.log(constant);
