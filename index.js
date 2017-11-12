@@ -1,9 +1,7 @@
 var variable = "this NOT is a variable"
 let constant = "this NOT is a constant"
+var array = ["one", 2 , "three"];
 
-console.log(variable);
+console.log(array);
 
-variable = "still NOT a variable "
-
-console.log(variable);
-console.log(constant);
+console.log(array[1]);
