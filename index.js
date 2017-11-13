@@ -20,7 +20,7 @@ if (dick == false){
 }
 
 function on(){
-	console.log("function".green );
+	console.log("function".green);
 }
 
 
