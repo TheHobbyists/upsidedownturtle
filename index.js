@@ -20,6 +20,7 @@ process.stdin.on('data', function (text) {
             }, 1000);
       
     }
+});
 
 if(dick == true){
 	console.log("OHHHHHHHH YEAHHHHHHH".yellow);
