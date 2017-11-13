@@ -14,11 +14,15 @@ process.stdin.setEncoding('utf8');
 
 process.stdin.on('data', function (text) {
     text = text.replace(/\n$/, '');
-    if (text == 'quit') {
+    if (text == 'quit'){
       setTimeout(function(){
         process.exit();
             }, 1000);
-      
+    }
+    if (text == 'stop'){
+    	setTimeout(function(){
+    		console.log("No".inverse);
+    	    }, 3000)
     }
 });
 
