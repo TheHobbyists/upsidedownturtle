@@ -22,3 +22,9 @@ function on(){
 	console.log("AAWWWW LAAWWWDDDD".green);
 };
 
+function asshole(dicks){
+	let screams = dicks;
+	console.log("There are "+screams+" children screaming.");
+}
+
+asshole(9);
