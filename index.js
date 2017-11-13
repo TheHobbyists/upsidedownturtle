@@ -24,6 +24,7 @@ function on(){
 };
 
 function asshole(dicks){
+	dicks = 0;
 	console.log("There are "+dicks+" dicks present.");
 }
 
