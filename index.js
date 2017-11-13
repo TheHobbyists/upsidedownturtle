@@ -24,7 +24,9 @@ function on(){
 };
 
 function asshole(dicks){
-	console.log("There are "+dicks+" dicks present.");
+	if(dicks < 10){
+	console.log("There are "+dicks+" dicks present."); } 
+else { console.log("MANDINGO!!!".red); }
 }
 
-asshole(1);
+asshole(11);
