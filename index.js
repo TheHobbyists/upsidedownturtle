@@ -9,16 +9,16 @@ var array = ["one", 2 , "three"];
 var variable = "this NOT is a variable";
 var dick = true;
 
-if (dick == true){
-	console.log("OHHHHHHHH YEAHHHHHHH".yellow)
-	setTimeout( function(){
-		console.log("AAWWWW LAAWWWDDDD".green)},1000)
-	}
-}
-if (dick == false){
-	console.log("God damn it. No dick.".red)
+if(dick == true){
+	console.log("OHHHHHHHH YEAHHHHHHH".yellow);
+	setTimeout(on,1000);
 }
 
+if(dick == false){
+	console.log("God damn it. No dick.".red);
+}
 
-
+function on(){
+	console.log("AAWWWW LAAWWWDDDD".green);
+};
 
