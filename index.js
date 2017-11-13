@@ -9,6 +9,19 @@ var array = ["one", 2 , "three"];
 var variable = "this NOT is a variable";
 var dick = true;
 
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+
+process.stdin.on('data', function (text) {
+    text = text.replace(/\n$/, '');
+    if (text === 'quit') {
+      setTimeout(function(){
+        process.exit();
+            }, 1000);
+      
+    }
+});
+
 if(dick == true){
 	console.log("OHHHHHHHH YEAHHHHHHH".yellow);
 	setTimeout(on,1000);
