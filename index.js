@@ -18,12 +18,14 @@ if(dick == false){
 	console.log("God damn it. No dick.".red);
 }
 
+//Functions 
 function on(){
 	console.log("AAWWWW LAAWWWDDDD".green);
 };
 
 function asshole(dicks){
 	let screams = dicks;
+	screams = 0;
 	console.log("There are "+screams+" children screaming.");
 }
 
