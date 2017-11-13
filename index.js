@@ -14,7 +14,7 @@ process.stdin.setEncoding('utf8');
 
 process.stdin.on('data', function (text) {
     text = text.replace(/\n$/, '');
-    if (text === 'quit') {
+    if (text == 'quit') {
       setTimeout(function(){
         process.exit();
             }, 1000);
@@ -38,7 +38,8 @@ function on(){
 
 function asshole(dicks){
 	if(dicks < 10){
-		console.log("There are "+dicks+" dicks present."); } 
+		console.log("There are "+dicks+" dicks present."); 
+	} 
 	else { 
 		console.log("MANDINGO!!!".red); 
 	}
