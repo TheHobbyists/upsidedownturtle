@@ -23,8 +23,7 @@ function on(){
 };
 
 function asshole(dicks){
-	let screams = dicks;
-	console.log("There are "+screams+" children screaming.");
+	console.log("There are "+dicks+" dicks present.");
 }
 
 asshole(9);
