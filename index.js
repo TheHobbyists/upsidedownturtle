@@ -38,8 +38,10 @@ function on(){
 
 function asshole(dicks){
 	if(dicks < 10){
-	console.log("There are "+dicks+" dicks present."); } 
-else { console.log("MANDINGO!!!".red); }
+		console.log("There are "+dicks+" dicks present."); } 
+	else { 
+		console.log("MANDINGO!!!".red); 
+	}
 }
 
 asshole(11);
