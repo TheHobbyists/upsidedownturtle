@@ -18,3 +18,10 @@ if (dick == true){
 if (dick == false){
 	console.log("God damn it. No dick.".red)
 }
+
+function on(){
+	console.log("function".green );
+}
+
+
+on();
